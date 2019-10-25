@@ -28,10 +28,10 @@ Or a **Pull Request** would be welcome.
 
 **Quick Access :**
   For accessing Admin features
- Admin id = **as@as.com** password : **admin**
+ Admin id = **aakash3222@gmail.com** password : **12341234**
  
   For accessing user/Restricted features
- user id = **ms@ms.com** password : **user**
+ user id = **duvyanshu@gmail.com** password : **12341234**
 
 ###################
 What is CodeIgniter
