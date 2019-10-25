@@ -63,14 +63,14 @@ CREATE TABLE `pending_orders` (
 --
 
 INSERT INTO `pending_orders` (`po_id`, `u_id`, `cart_total`, `bill_fname`, `bill_lname`, `bill_add`, `bill_city`, `bill_email`, `bill_phone`, `status`, `date`) VALUES
-(1, 3, '121000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'psh', 'aakash3222@gmail.com', '07053439220', 'delivered', '2019-10-09 11:53:51'),
-(2, 3, '41000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'isl', 'aakash3222@gmail.com', '07053439220', 'delivered', '2019-10-12 11:46:36'),
-(3, 3, '41000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aakash3222@gmail.com', '07053439220', '', '2019-10-09 11:57:32'),
-(4, 3, '51000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aakash3222@gmail.com', '07053439220', '', '2019-10-09 11:59:48'),
-(5, 1, '21000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aakash3222@gmail.com', '07053439220', '', '2019-10-12 11:51:23'),
-(6, 3, '6000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aakash3222@gmail.com', '07053439220', '', '2019-10-22 09:22:11'),
-(7, 3, '6000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'DEL', 'aakash3222@gmail.com', '07053439220', '', '2019-10-25 09:52:14'),
-(8, 4, '2000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'DEL', 'aakash3222@gmail.com', '07053439220', '', '2019-10-25 09:57:50');
+(1, 3, '121000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'psh', 'aa.com', '0700', 'delivered', '2019-10-09 11:53:51'),
+(2, 3, '41000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'isl', 'aakl.com', '0705', 'delivered', '2019-10-12 11:46:36'),
+(3, 3, '41000', 'Aakash', 'Singha', 'street 42c h.no 10 h-2, qutub vihar', 'khi', 'aakal.com', '070', '', '2019-10-09 11:57:32'),
+(4, 3, '51000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aail.com', '0700', '', '2019-10-09 11:59:48'),
+(5, 1, '21000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aaail.com', '070', '', '2019-10-12 11:51:23'),
+(6, 3, '6000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'khi', 'aal.com', '07020', '', '2019-10-22 09:22:11'),
+(7, 3, '6000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'DEL', 'aail.com', '0720', '', '2019-10-25 09:52:14'),
+(8, 4, '2000', 'Aakash', 'Singha', 'street 42c h.no 10 ph-2, qutub vihar', 'DEL', 'aail.com', '0720', '', '2019-10-25 09:57:50');
 
 -- --------------------------------------------------------
 
@@ -152,7 +152,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`u_id`, `fname`, `lname`, `username`, `email`, `password`, `status`) VALUES
-(3, 'Aakash', 'Singha', 'aakash3222', 'aakash3222@gmail.com', '12341234', 'admin'),
+(3, 'Aakash', 'Singha', 'aakash', 'admin@gmail.com', '12341234', 'admin'),
 (4, 'divyanshu', 'pandey', 'divyanshu', 'divyanshu@gmail.com', '12341234', '');
 
 --
