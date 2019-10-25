@@ -28,7 +28,7 @@ Or a **Pull Request** would be welcome.
 
 **Quick Access :**
   For accessing Admin features
- Admin id = **aakash3222@gmail.com** password : **12341234**
+ Admin id = **admin@gmail.com** password : **12341234**
  
   For accessing user/Restricted features
  user id = **duvyanshu@gmail.com** password : **12341234**
